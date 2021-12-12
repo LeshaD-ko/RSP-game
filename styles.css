@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  max-width: 100%;
+  background-color: silver;
+}
+.content {
+  max-width: 1200px;
+  background-color: #fff;
+  margin: 15vh auto 0;
+  height: 50vh;
+  padding: 10px;
+  box-shadow: 20px 20px 9px rgba(29, 10, 10, 0.36);
+  border-radius: 10px;
+  border: solid 1px slategray;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: rgba(138, 41, 41, 0.8);
+  font-size: 36px;
+}
+
+p {
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 20px;
+}
+
+.winner {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+  color: rgba(5, 129, 67, 0.8);
+  font-size: 28px;
+}
+
+.btn-wrapper {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+button {
+  margin: 10px 25px;
+  font-size: 16px;
+  background-color: rgb(48, 136, 236);
+  border: solid 2px blue;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  box-shadow: 10px 5px 5px rgb(8, 28, 119);
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: blue;
+  box-shadow: 5px 3px 2px rgb(8, 28, 119);
+}
